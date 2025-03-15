@@ -24,6 +24,5 @@ async def procesar_mensaje(request: MessageRequest):
     elif "necesito ayuda" in mensaje or "problema" in mensaje:
         return caligula.gestionar(mensaje)
     else:
-
         return neron.gestionar(mensaje)
 

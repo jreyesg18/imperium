@@ -33,20 +33,14 @@ Pydantic se utiliza para la validación de los datos de entrada.
 
 Tu proyecto debería tener la siguiente estructura de archivos:
 
-imperium/
-│
-
-├── emperadores/
-
-│   └── __init__.py   # Aquí irán los archivos que definen las funciones de los roles
-
-│
-
-├── main.py           # Aquí estará la configuración principal de FastAPI
-
-├── requirements.txt  # Lista de dependencias (opcional)
-
-└── README.md         # Documentación del proyecto
+    imperium/
+    │
+    ├── emperadores/
+    │   └── __init__.py   # Aquí irán los archivos que definen las funciones de los roles
+    │
+    ├── main.py           # Aquí estará la configuración principal de FastAPI
+    ├── requirements.txt  # Lista de dependencias (opcional)
+    └── README.md         # Documentación del proyecto
 
 5. Crear el Script Principal
 
